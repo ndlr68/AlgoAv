@@ -7,7 +7,7 @@ import random
 from graphviz import Digraph
 
 # =============================================================================
-# Merge Sort Implementation (selon le document)
+# Merge Sort Implementation 
 # =============================================================================
 
 class MergeSortTree:
@@ -25,7 +25,6 @@ class MergeSortTree:
 def merge_sort_tree(arr, tree_node=None, steps=None, description=None):
     """
     Trie un tableau en utilisant l'algorithme de tri fusion avec construction de l'arbre
-    selon l'approche du document
     """
     if tree_node is None:
         tree_node = MergeSortTree(arr)
@@ -328,7 +327,7 @@ def show_educational_content():
     ### Principe de Base
     Le **tri fusion** suit exactement l'approche **« Diviser pour Régner »** décrite dans votre document :
     
-    ### Étapes de l'Algorithme (selon le document)
+    ### Étapes de l'Algorithme
     
     1. **DIVISER** : 
        - Découper le problème en sous-problèmes
@@ -357,7 +356,13 @@ def show_educational_content():
 # =============================================================================
 
 def show_tp3():
-    st.markdown("<h2 style='color: #1f77b4;'>TP3: Tri Fusion avec Arbre de Récurrence Complet</h2>", unsafe_allow_html=True)
+    st.set_page_config(
+        page_title="TP3 - Tri Fusion",
+        page_icon="📊",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+    st.markdown("<h2 style='color: #1f77b4;'>TP3: Tri Fusion</h2>", unsafe_allow_html=True)
 
     mode = st.radio("Sélectionnez le mode:", ["Tri Interactif", "Analyse de Performance", "Théorie et Explications"], horizontal=True)
     st.markdown("---")
