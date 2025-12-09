@@ -2172,6 +2172,12 @@ def show_mfunctional_min_operations():
 # =============================================================================
 
 def show_tp2():
+    st.set_page_config(
+        page_title="TP2 - Opérations sur les Structures de Données",
+        page_icon="📊",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
     st.markdown(
         "<h2 style='color: #1f77b4;'>TP2: Opérations sur les Structures de Données</h2>",
         unsafe_allow_html=True,
