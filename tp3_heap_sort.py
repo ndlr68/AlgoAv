@@ -356,12 +356,12 @@ def show_educational_content():
 # =============================================================================
 
 def show_tp3():
-    st.set_page_config(
-        page_title="TP3 - Tri Fusion",
-        page_icon="📊",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+    # st.set_page_config(
+    #     page_title="TP3 - Tri Fusion",
+    #     page_icon="📊",
+    #     layout="wide",
+    #     initial_sidebar_state="expanded"
+    # )
     st.markdown("<h2 style='color: #1f77b4;'>TP3: Tri Fusion</h2>", unsafe_allow_html=True)
 
     mode = st.radio("Sélectionnez le mode:", ["Tri Interactif", "Analyse de Performance", "Théorie et Explications"], horizontal=True)
