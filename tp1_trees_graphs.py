@@ -634,12 +634,12 @@ def draw_graph(G, is_directed, is_weighted, title):
 # =============================================================================
 
 def show_tp1():
-    st.set_page_config(
-        page_title="TP1 - Arbres et Graphes",
-        page_icon="📊",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+    # st.set_page_config(
+    #     page_title="TP1 - Arbres et Graphes",
+    #     page_icon="📊",
+    #     layout="wide",
+    #     initial_sidebar_state="expanded"
+    # )
     st.markdown(
         "<h2 style='color: #1f77b4;'>TP1: Arbres et Graphes (ABR, AVL, TAS, AMR, B-Arbre + Graphes)</h2>",
         unsafe_allow_html=True,
