@@ -3,6 +3,8 @@ import streamlit as st
 from tp1_trees_graphs import show_tp1
 from tp2_tree_operations import show_tp2
 from tp3_heap_sort import show_tp3
+from tp4_coloration import show_tp4
+from tp5_pcc import show_tp5
 # Page configuration
 st.set_page_config(page_title="TP ALGO", layout="wide")
 
@@ -39,11 +41,12 @@ if selected_tp == "Accueil":
         "<ul style='text-align: center; font-size: 20px; color: #555; list-style: none; padding: 0;'>",
         unsafe_allow_html=True,
     )
-    st.markdown("<li>Sidi Moussa Safia</li>", unsafe_allow_html=True)
     st.markdown("<li>Laraba Nada</li>", unsafe_allow_html=True)
+    st.markdown("<li>Sidi Moussa Safia</li>", unsafe_allow_html=True)
     st.markdown("<li>Aida Douaa</li>", unsafe_allow_html=True)
     st.markdown("<li>Harizi Khouloud</li>", unsafe_allow_html=True)
     st.markdown("<li>Abdallah Yassmine</li>", unsafe_allow_html=True)
+    st.markdown("<li>Arab Ouissem Saida</li>", unsafe_allow_html=True)
 
     st.markdown("</ul>", unsafe_allow_html=True)
     st.markdown(
@@ -57,6 +60,10 @@ elif selected_tp == "TP2":
     show_tp2()
 elif selected_tp == "TP3":
     show_tp3()
+elif selected_tp == "TP4":
+    show_tp4()
+elif selected_tp == "TP5":
+    show_tp5()
 
 # Placeholder for other TPs
 else:
