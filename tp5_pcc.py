@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+
 def bellman_ford_detailed(vertices, edges, source):
     """
     Implémente l'algorithme de Bellman-Ford selon la description du document.
@@ -672,12 +673,12 @@ def get_detailed_explanations(history, marked_history, source):
 
 def show_tp5():
     # Configuration de la page
-    st.set_page_config(
-        page_title="TP5 - Bellman-Ford",
-        page_icon="📊",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+    # st.set_page_config(
+    #     page_title="TP5 - Bellman-Ford",
+    #     page_icon="📊",
+    #     layout="wide",
+    #     initial_sidebar_state="expanded"
+    # )
     
     # Style CSS personnalisé
     st.markdown("""
