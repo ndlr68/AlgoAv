@@ -47,12 +47,12 @@ def build_table(order, initial_deg, degree_history, coloring):
 
 # ------------------ Interface Streamlit ------------------ #
 def show_tp4():
-    st.set_page_config(
-        page_title="TP4 - Algorithme Matula",
-        page_icon="📊",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+    # st.set_page_config(
+    #     page_title="TP4 - Algorithme Matula",
+    #     page_icon="📊",
+    #     layout="wide",
+    #     initial_sidebar_state="expanded"
+    # )
     st.title("TP4 : Coloration de Graphe - Algorithme de Matula 🎨")
 
     n = st.number_input("Nombre de sommets :", 1, 50, 6)
